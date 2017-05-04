@@ -1,0 +1,325 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+    margin: 20px;
+    color: white;;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    height: 100px;
+    background: rgba(31, 29, 29, 1);
+    display: flex;
+    /*background-color : transparent;*/
+    opacity: 1;
+}
+
+
+/*title section*/
+
+/*.logo {
+    width: 25%;
+    font-family: Harlow Solid Italic;
+    user-select: none;
+    cursor: default;
+    opacity: .8;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.max {
+    font-size: 50px;
+    clear: both;
+}
+
+.min {
+    font-size: 20px;
+    color: #898985;
+    clear: both;
+}
+
+.color1 {
+    color: orange;
+}
+
+.color2 {
+    color: white;
+}
+
+.color3 {
+    color: green;
+}*/
+
+
+/*design section of logo */
+
+.title {
+    width: 100%;
+    height: auto;
+    color: white;
+    user-select: none;
+}
+
+.logo_cointainer {
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+}
+
+
+/*title section*/
+
+.name {
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.max {
+    font-size: 900%;
+    clear: both;
+}
+
+.min {
+    font-size: 400%;
+    color: #898985;
+    clear: both;
+}
+
+.color1 {
+    color: orange;
+}
+
+.color2 {
+    color: white;
+}
+
+.color3 {
+    color: green;
+}
+
+hr {
+    border-width: 2px;
+    border-color: rgb(96, 93, 93);
+    border-style: solid;
+}
+
+
+/*end*/
+
+
+.space {
+    width: 20%;
+}
+
+.menu {
+    margin-left: 100px;
+    width: 50%;
+    float: right;
+    user-select: none;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    width: 100%;
+}
+
+button {
+    width: 25%;
+    height: 60px;
+    line-height: 22px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 20px;
+    /*color: blue;*/
+    background: rgba(31, 29, 29, 1);
+    color: white;
+    border-radius: 10px;
+    top: 2px;
+    border: none;
+    /*font-family: Algerian;*/
+    font-size: 18px;
+    user-select: none;
+    outline: none;
+    transition: width 1s ease, background-color .1s ease;
+}
+
+button:hover {
+    /*border-style: solid;*/
+    width: 250px;
+    height: 80px;
+    font-size: 22px;
+    border-width: 10px;
+    /*border-bottom: solid;
+    border-left: solid;
+    border-color: rgb(144, 7, 126);
+    background: rgb(65, 255, 61);
+    transition: width 1s,height 1s ,font-size 1s;*/
+}
+
+
+/*background section*/
+
+.background {
+    width: 100%;
+    height: 1000px;
+    background: url("map.jpeg") no-repeat center fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*slide css*/
+
+.slidebox {
+    width: 100%;
+    text-align: center;
+}
+
+.slidecontainer {
+    width: 100%;
+    height: 400px;
+    /*padding-left: 20%;*/
+    background-color: transparent;
+    padding-top: 20px;
+    opacity: .9;
+}
+
+.mySlides {
+    height: 400px;
+}
+
+
+/*reference modul*/
+
+.foot {
+    height: 200px;
+    background: rgba(74, 74, 74, 1);
+    text-align: center;
+    display: block;
+}
+
+
+/*icon */
+
+.icon {
+  width: 30%;
+    padding-top: 30px;
+    user-select: none;
+    font-size: 40px;
+}
+.icon2 {
+    padding-top: 30px;
+    user-select: none;
+    font-size: 40px;
+}
+a{
+}
+.size {
+    font-size: 100%;
+}
+
+.effect:hover {
+    box-shadow: 0 5px 0 #09e222;
+    transform: translateY(1px);
+}
+
+/*copyright*/
+
+.copyright {
+    height: 100px;
+    line-height: 100px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+/*remove underline from link*/
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    /*color:rgb(255, 3, 184);*/
+}
+
+
+/*search section*/
+
+.search {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    border-radius: 40px;
+    font-size: 16px;
+    background-image: images/search.PNG;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+}
+
+input[type=text]:focus {
+    width: 100%;
+    font-size: 30px;
+}
+
+
+/*Blog references section*/
+
+.reference {
+    height: 400px;
+    display: flex;
+    /*background: rgb(161, 171, 161);*/
+    clear: both;
+}
+
+.border {
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-width: thick;
+    height: 200px;
+    border-radius: 50%;
+    width: 25%;
+    margin: 60px;
+    border-width: 10px;
+    line-height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    user-select: none;
+    cursor: default;
+}
